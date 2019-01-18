@@ -3,3 +3,12 @@ backend:
   repo: mschlosser22/hugotest
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+
+collections:
+  - name: post
+    label: Post
+    folder: posts
+    create: true
+    fields:
+      - {name: title, label: Title}
+      - {name: body, label: Body, widget: markdown}
