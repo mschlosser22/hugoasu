@@ -1,7 +1,7 @@
 title = "HUGOASU"
-baseURL = "http://hugoasu.local:8080/"
+baseURL = "https://example.com"
 languageCode = "en-us"
-theme = "ananke"
+theme = "gohugo-theme-ananke"
 
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
