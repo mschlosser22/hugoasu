@@ -25,6 +25,5 @@ modular_sections:
   button_link: "#"
   extra_class: background-asu-secondary
 date: 2019-01-22 14:29:29 +0000
-draft: true
 
 ---
