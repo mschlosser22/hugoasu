@@ -1,0 +1,11 @@
+---
+label: Callout
+hide_body: false
+is_partial: true
+display_field: content
+fields:
+- type: text
+  name: content
+  label: Content
+  config:
+    required: true
