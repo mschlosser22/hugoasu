@@ -9,3 +9,7 @@ fields:
   label: Content
   config:
     required: true
+- type: text
+  name: extra_class
+  label: Extra Class
+  description: Additional CSS Classes for this section
