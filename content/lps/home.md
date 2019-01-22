@@ -20,6 +20,10 @@ modular_sections:
 - template: footer-small
   left_text: "&copy; Copyright 2019 ASU Online"
   extra_class: background-asu-primary
+- template: eyebrow
+  button_label: LEARN MORE
+  button_link: "#"
+  extra_class: background-asu-secondary
 date: 2019-01-22 14:29:29 +0000
 draft: true
 
