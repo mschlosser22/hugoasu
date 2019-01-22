@@ -8,6 +8,15 @@ modular_sections:
 - template: callout
   content: Learn about the more than 150 highly respected degree programs available
     100% online through ASU.
+- template: features
+  icon: "/uploads/1.png"
+  heading: A world-class university, online
+  listing:
+  - "<i>U.S News & World Report</i> named ASU the #1 university for innovation in
+    the country, ahead of both Stanford and MIT."
+  - "<i>U.S News & World Report</i> named ASU the #1 university for innovation in
+    the country, ahead of both Stanford and MIT."
+  extra_class: background-grey
 date: 2019-01-22 14:29:29 +0000
 draft: true
 
