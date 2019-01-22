@@ -1,0 +1,27 @@
+---
+label: Hero with Form Right
+hide_body: false
+is_partial: true
+fields:
+- type: file
+  name: logo
+  label: Logo
+  description: School Logo
+  config:
+    maxSize: '1'
+- type: file
+  name: hero_image
+  label: Hero Image
+  config:
+    maxSize: '2'
+- type: text
+  name: heading
+  label: Heading
+- type: boolean
+  name: show_form_placeholder
+  label: Show Form Placeholder
+  description: Should we show form in the hero section?
+- type: text
+  name: extra_class
+  label: Extra Class
+  description: Add more classes to the section
