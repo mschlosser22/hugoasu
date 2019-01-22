@@ -17,6 +17,9 @@ modular_sections:
   - "<i>U.S News & World Report</i> named ASU the #1 university for innovation in
     the country, ahead of both Stanford and MIT."
   extra_class: background-grey
+- template: footer-small
+  left_text: "&copy; Copyright 2019 ASU Online"
+  extra_class: background-asu-primary
 date: 2019-01-22 14:29:29 +0000
 draft: true
 
