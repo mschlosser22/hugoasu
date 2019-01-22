@@ -18,3 +18,7 @@ fields:
     use_select: false
     source:
       type: documents
+- type: text
+  name: extra_class
+  label: Extra Class
+  description: Additional CSS Classes for this section
