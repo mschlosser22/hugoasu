@@ -1,0 +1,24 @@
+<section class="hero {{ .extra_class }}">
+	<div class="hero-logo__container _l_container">
+		<div class="hero-logo__inner _l_inner">
+			<img src="{{ .logo }}" alt="Some alt text to replace with variable">
+		</div>
+	</div>
+	<div class="hero-image__container">
+		<div class="hero-image__inner">
+			<img src="{{ .hero_image }}" alt="Some alt text to replace with variable">
+		</div>
+	</div>
+	<div class="hero-heading__container _l_container">
+		<div class="hero-heading__inner _l_inner">
+			<span>{{ .heading }}</span>
+		</div>
+	</div>
+	{{ if eq .show_form_placeholder true }}
+	<div class="hero-form__container _l_container">
+		<div class="hero-form__inner _l_inner">
+			<div class="hero-form"></div>
+		</div>
+	</div>
+	{{ end }}
+</section>
