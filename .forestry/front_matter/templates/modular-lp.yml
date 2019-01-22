@@ -13,3 +13,5 @@ fields:
   - features
   - footer-small
   - eyebrow
+pages:
+- content/lps/home.md
