@@ -1,0 +1,20 @@
+---
+label: Features
+hide_body: false
+is_partial: true
+fields:
+- type: file
+  name: icon
+  label: Icon
+  config:
+    maxSize: '1'
+- type: text
+  name: heading
+  label: Heading
+- type: list
+  name: listing
+  label: Listing
+  config:
+    use_select: false
+    source:
+      type: documents
