@@ -9,6 +9,8 @@ sections:
   label: Landing Pages
   create: all
   match: "**/*"
+  templates:
+  - modular-lp
 - type: directory
   path: content/posts
   label: Posts
