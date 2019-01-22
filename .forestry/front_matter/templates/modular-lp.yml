@@ -1,0 +1,15 @@
+---
+label: Modular LP
+hide_body: true
+is_partial: false
+fields:
+- type: blocks
+  name: modular_sections
+  label: Modular Sections
+  description: Build page with Modular Sections/Blocks
+  template_types:
+  - hero-with-form-right
+  - callout
+  - features
+  - footer-small
+  - eyebrow
