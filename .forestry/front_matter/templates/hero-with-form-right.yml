@@ -2,6 +2,7 @@
 label: Hero with Form Right
 hide_body: false
 is_partial: true
+display_field: hero_image
 fields:
 - type: file
   name: logo
