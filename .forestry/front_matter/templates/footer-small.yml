@@ -1,0 +1,13 @@
+---
+label: Footer Small
+hide_body: false
+is_partial: true
+display_field: left_text
+fields:
+- type: text
+  name: left_text
+  label: Left Text
+- type: text
+  name: extra_class
+  label: Extra Class
+  description: Additional CSS Classes for this section
