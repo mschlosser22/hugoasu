@@ -1,0 +1,18 @@
+---
+label: Eyebrow
+hide_body: false
+is_partial: true
+display_field: button_label
+fields:
+- type: text
+  name: button_label
+  label: Button Label
+  description: Button Text
+- type: text
+  name: button_link
+  label: Button Link
+  description: Button Links To Where
+- type: text
+  name: extra_class
+  label: Extra Class
+  description: Additional CSS Classes for this section
