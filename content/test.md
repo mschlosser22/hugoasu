@@ -10,5 +10,8 @@ modular_sections:
 - template: callout
   content: Learn about the more than 150 highly respected degree programs available
     100% online through ASU.
+- template: footer-small
+  left_text: "&copy; Copyright 2019 ASU Online"
+  extra_class: background-asu-primary
 
 ---
