@@ -5,6 +5,8 @@ modular_sections:
 - template: hero-with-form-right
   logo: "/uploads/asu-control-lp-logo-2017.png"
   hero_image: "/uploads/building.jpg"
+  show_form_placeholder: true
+  heading: test heading
 - template: callout
   content: Some Content
 
