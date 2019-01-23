@@ -4,10 +4,6 @@ auto_deploy: false
 admin_path: "/admin"
 webhook_url: 
 sections:
-- type: document
-  path: data/**/*
-  label: Forms
-  match: "**/*"
 - type: directory
   path: content/lps
   label: Landing Pages
