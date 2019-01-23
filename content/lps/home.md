@@ -5,12 +5,12 @@ modular_sections:
   hero_image: "/uploads/building.jpg"
   heading: Degrees you can earn 100% online
   show_form_placeholder: true
-- template: callout
-  content: Learn about the more than 150 highly respected degree programs available
-    100% online through ASU.
 - template: footer-small
   left_text: "&copy; Copyright 2019 ASU Online"
   extra_class: background-asu-primary
+- template: callout
+  content: Learn about the more than 150 highly respected degree programs available
+    100% online through ASU.
 - template: eyebrow
   button_label: LEARN MORE
   button_link: "#"
