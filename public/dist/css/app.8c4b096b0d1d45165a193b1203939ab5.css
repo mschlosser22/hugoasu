@@ -1,0 +1,18 @@
+.hero {
+	width: 100%;
+	position: relative;
+}
+
+.hero-logo__container {
+	position: absolute;
+	width: 100%;
+}
+
+.hero-logo__container img {
+	padding-top: 18px;
+}
+
+._l_inner {
+    width: 1240px;
+    margin: 0 auto;
+}
