@@ -5,7 +5,7 @@ admin_path: "/admin"
 webhook_url: 
 sections:
 - type: document
-  path: data/forms/polsone/*
+  path: data/**/*
   label: Forms
   match: "**/*"
 - type: directory
