@@ -17,7 +17,19 @@
 	{{ if eq .show_form_placeholder true }}
 	<div class="hero-form__container _l_container">
 		<div class="hero-form__inner _l_inner">
-			<div class="hero-form"></div>
+			<div class="hero-form">
+				<div id="polsone-form-wrapper" class="polsone--loading"></div>
+		        <script src="//d2x7ux1srzghav.cloudfront.net/js/polsone-api.dev.js" type="application/javascript"></script>
+		        <script type="application/javascript">
+		            var formType = "step-form";
+		            var frontendValues = {
+		                "name__first": "Test",
+		                "name__last": "Test",
+		                "name__full": "Test Test",
+		                "contact__email": "polsonetest@pearson.com",
+		            };
+		        </script>
+			</div>
 		</div>
 	</div>
 	{{ end }}

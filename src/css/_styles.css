@@ -83,6 +83,12 @@
     background: #ffc627;
     width: 410px;
     height: 434px;
+    overflow: scroll;
+}
+
+.polsone-form .polsone-field .form-input {
+	width: 90%;
+	margin: 0 auto;
 }
 
 /*
