@@ -7,6 +7,7 @@ modular_sections:
   hero_image: "/uploads/building.jpg"
   show_form_placeholder: true
   heading: test heading
+  extra_class: test
 - template: callout
   content: Some Content
 
