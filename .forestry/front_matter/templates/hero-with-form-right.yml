@@ -26,3 +26,12 @@ fields:
   name: extra_class
   label: Extra Class
   description: Add more classes to the section
+- type: select
+  name: polsone_form
+  config:
+    source:
+      type: documents
+      section: polsone-forms-fa102c69-5d96-4fc1-8dc7-a82fb01f9c4e
+      file: data/forms/polsone/forms.json
+  label: Polsone Form
+  description: Select the Polsone Form to Use on the page
