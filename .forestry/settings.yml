@@ -16,6 +16,9 @@ sections:
 - type: document
   path: data/programs/asu-programs.json
   label: ASU Programs (Only Temporary, Use getJson in template instead probably)
+- type: document
+  path: data/programs/interestareas.json
+  label: ASU Interest Areas
 - type: directory
   path: content/lps
   label: Landing Pages
