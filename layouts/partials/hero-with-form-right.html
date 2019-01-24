@@ -19,9 +19,9 @@
 		<div class="hero-form__inner _l_inner">
 			<div class="hero-form">
 				<div id="polsone-form-wrapper" class="polsone--loading"></div>
-		        <script src="//d2x7ux1srzghav.cloudfront.net/js/polsone-api.dev.js" type="application/javascript"></script>
 		        <script type="application/javascript">
 		            var formType = "step-form";
+		            var formId   = "{{ .polsone_form }}";
 		            var frontendValues = {
 		                "name__first": "Test",
 		                "name__last": "Test",
@@ -29,6 +29,7 @@
 		                "contact__email": "polsonetest@pearson.com",
 		            };
 		        </script>
+		        <script src="//d2x7ux1srzghav.cloudfront.net/js/polsone-api.dev.js" type="application/javascript"></script>
 
 			</div>
 		</div>
