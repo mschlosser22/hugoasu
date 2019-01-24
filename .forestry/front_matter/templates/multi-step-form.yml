@@ -1,0 +1,16 @@
+---
+label: Multi Step Form
+hide_body: false
+is_partial: true
+display_field: form
+fields:
+- type: select
+  name: form
+  config:
+    source:
+      type: documents
+      section: polsone-forms-fa102c69-5d96-4fc1-8dc7-a82fb01f9c4e
+      file: data/forms/polsone/forms.json
+      path: step-forms
+  label: Form
+  description: Select the form to be used
