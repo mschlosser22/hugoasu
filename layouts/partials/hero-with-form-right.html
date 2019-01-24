@@ -20,13 +20,10 @@
 			<div class="hero-form">
 				<div id="polsone-form-wrapper" class="polsone--loading"></div>
 		        <script type="application/javascript">
-		            var formType = "lead";
+		            var formType = "{{ if eq .form_type 'single' }}lead{{ else }}step-forms{{ end }}";
 		            var formId   = "{{ .polsone_form }}";
 		            var frontendValues = {
-		                "name__first": "Test",
-		                "name__last": "Test",
-		                "name__full": "Test Test",
-		                "contact__email": "polsonetest@pearson.com",
+
 		            };
 		        </script>
 		        <script src="//d2x7ux1srzghav.cloudfront.net/js/polsone-api.dev.js" type="application/javascript"></script>
