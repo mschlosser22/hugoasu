@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: "/admin"
-webhook_url: 
+webhook_url:
 sections:
 - type: directory
   path: data
@@ -13,6 +13,9 @@ sections:
 - type: document
   path: data/forms/polsone/forms.json
   label: Polsone Forms
+- type: document
+  path: data/programs/asu-programs.json
+  label: ASU Programs (Only Temporary, Use getJson in template instead probably)
 - type: directory
   path: content/lps
   label: Landing Pages
