@@ -14,22 +14,18 @@
 			<span>{{ .heading }}</span>
 		</div>
 	</div>
-	{{ if eq .show_form_placeholder true }}
-	<div class="hero-form__container _l_container">
-		<div class="hero-form__inner _l_inner">
-			<div class="hero-form">
-				<div id="polsone-form-wrapper" class="polsone--loading"></div>
-		        <script type="application/javascript">
-		            var formType = "{{ if eq .form_type 'single' }}lead{{ else }}step-forms{{ end }}";
-		            var formId   = "{{ .polsone_form }}";
-		            var frontendValues = {
 
-		            };
-		        </script>
-		        <script src="//d2x7ux1srzghav.cloudfront.net/js/polsone-api.dev.js" type="application/javascript"></script>
-
-			</div>
-		</div>
-	</div>
+	{{ $formgroup := .form_group }}
+	{{ range $formgroup }}
+		{{ $formblock := $formgroup.form_block }}
+		{{ range $formblock }}
+			{{ $formTemplate := .template }}
+			{{ if eq $formTemplate "single-step-form" }}
+				{{ partial "single-step-form.html" . }}
+			{{ else }}
+				{{ partial "multi-step-form.html" . }}
+			{{ end }}
+		{{ end }}
 	{{ end }}
+
 </section>
