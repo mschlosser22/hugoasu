@@ -27,6 +27,16 @@ fields:
   label: Extra Class
   description: Add more classes to the section
 - type: select
+  name: form_type
+  config:
+    source:
+      type: simple
+    options:
+    - single
+    - multi
+  label: Form Type
+  description: Single or Multi Step Form
+- type: select
   name: polsone_form
   config:
     source:
