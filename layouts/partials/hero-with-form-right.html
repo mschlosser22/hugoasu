@@ -22,8 +22,9 @@
 			{{ $formTemplate := .template }}
 			{{ if eq $formTemplate "single-step-form" }}
 				{{ partial "single-step-form.html" . }}
-			{{ else }}
+			{{ else if eq $formTemplate "multi-step-form"}}
 				{{ partial "multi-step-form.html" . }}
+			{{ else }}
 			{{ end }}
 		{{ end }}
 	{{ end }}
