@@ -45,3 +45,15 @@ fields:
       file: data/forms/polsone/forms.json
   label: Polsone Form
   description: Select the Polsone Form to Use on the page
+- type: field_group
+  name: form_group
+  label: Form Group
+  fields:
+  - type: blocks
+    name: form_block
+    label: Form Block
+    config:
+      max: '1'
+    template_types:
+    - multi-step-form
+    - single-step-form
