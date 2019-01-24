@@ -8,8 +8,8 @@ modular_sections:
   polsone_form: cacheForMinutes
   form_group:
     form_block:
-    - template: single-step-form
-      form: default
+    - template: multi-step-form
+      form: und-1
 - template: footer-small
   left_text: "&copy; Copyright 2019 ASU Online"
   extra_class: background-asu-primary
