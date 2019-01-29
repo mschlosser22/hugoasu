@@ -1,0 +1,117 @@
+/*
+* GLOBAL
+*/
+._l_container {
+	width: 100%;
+}
+._l_inner {
+    width: 1240px;
+    margin: 0 auto;
+}
+.background-asu-primary {
+    background: #8C1D40;
+}
+.background-asu-secondary {
+    background: #ffc627;
+}
+/*
+* HERO
+*/
+.hero {
+	width: 100%;
+	position: relative;
+}
+.hero-logo__container {
+	position: absolute;
+	width: 100%;
+}
+.hero-logo__container img {
+	padding-top: 18px;
+}
+.hero-image__container {
+    z-index: -1;
+    width: 100%;
+}
+.hero-image__container img {
+	width: 100%;
+}
+.hero-heading__container {
+    position: absolute;
+    bottom: 36px;
+    width: 100%;
+    color: #fff;
+    font-family: "Roboto-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 54px;
+    line-height: 1.4em;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+.hero-heading__inner {
+
+}
+.hero-heading__inner span {
+	background-color: rgba(0, 0, 0, .7);
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 458px;
+    display: block;
+}
+.hero-form__container {
+	position: absolute;
+}
+.hero-form__inner {
+	position: relative;
+}
+.hero-form {
+	position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background: #ffc627;
+    width: 410px;
+    height: 434px;
+}
+.polsone-form .polsone-field .form-input {
+	width: 90%;
+	margin: 0 auto;
+}
+/*
+* CALLOUT
+*/
+.callout {
+	font-family: "RobotoSlab-Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.callout__inner {
+	padding: 0 55px;
+}
+.callout span {
+	font-size: 38px;
+    line-height: 46px;
+    margin: 57px 0;
+    display: block;
+}
+/*
+* EYEBROW
+*/
+.eyebrow__inner {
+    padding: 8px 0;
+    text-align: center;
+}
+.eyebrow a {
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	padding: 12px 36px;
+	display: block;
+    max-width: 200px;
+    margin: 0 auto;
+    font-family: "Roboto-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/*
+* FOOTER
+*/
+.footer__small {
+	color: #fff;
+	padding: 20px 15px;
+	font-family: "Roboto-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}

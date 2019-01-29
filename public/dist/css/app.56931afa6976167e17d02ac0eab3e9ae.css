@@ -1,0 +1,8 @@
+.hero {
+	width: 100%;
+	position: relative;
+}
+
+.hero-logo__container {
+	position: absolute;
+}
