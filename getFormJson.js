@@ -12,9 +12,36 @@ request('http://dev.polsone.cds-store.com/api/v1/forms', { json: true }, (err, r
 // ASU Programs
 request('https://asuonline.asu.edu//lead-submissions-v3.3/programs', { json: true }, (err, res, body) => {
   if (err) { return console.log(err); }
-  //console.log(body);
+
   let data = JSON.stringify(body);
   fs.writeFileSync('data/programs/asu-programs.json', data);
+
+  // Convert to Polsone Data Structure
+  let formattedData = {
+  	"program__code":[
+  	]
+  };
+
+  body.forEach(function(program){
+  	let tempProgramObject = {};
+  	tempProgramObject["key"] = program.progcode;
+  	tempProgramObject["text"] = program.title;
+  	tempProgramObject["data_attr"] = [];
+  	let tempDataAttrLevel = {
+  		"key": "program__level",
+  		"value": program.category
+  	};
+  	let tempDataAttrTest = {
+  		"key": "program__interest-areas",
+  		"value": "test"
+  	};
+  	tempProgramObject["data_attr"].push(tempDataAttrLevel);
+  	tempProgramObject["data_attr"].push(tempDataAttrTest);
+  	formattedData["program__code"].push(tempProgramObject);
+  });
+  formattedData = JSON.stringify(formattedData);
+  fileOutput = 'var frontendOptions = ' + formattedData + ';';
+  fs.writeFileSync('static/dist/js/asu-programs-formatted.js', fileOutput);
 });
 
 // ASU Interest Areas
@@ -74,4 +101,7 @@ request('https://asuonline.asu.edu//lead-submissions-v3.3/programs', { json: tru
   data = JSON.stringify(data);
   console.log(data);
   fs.writeFileSync('data/programs/programsbyinterestareas.json', data);
+  // TODO CLEANUP CODE
+  // TODO CHECK PERFORMANCE
+  // TODO CHECK FOR DIFFERENCE IN OBJECTS BEFORE REWRITING WITHOUT NEED - POSSIBLY USE LODASH
 });
