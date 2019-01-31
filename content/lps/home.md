@@ -9,7 +9,7 @@ modular_sections:
   form_group:
     form_block:
     - template: multi-step-form
-      form: und-1
+      form: asu-core
 - template: footer-small
   left_text: "&copy; Copyright 2019 ASU Online"
   extra_class: background-asu-primary
