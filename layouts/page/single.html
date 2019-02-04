@@ -1,0 +1,23 @@
+{{ define "header" }}
+   {{/* We can override any block in the baseof file be defining it in the template */}}
+   <!-- PLACEHOLDER TO TEMP OVERRIDE HEADER -->
+{{ end }}
+
+{{ define "main" }}
+  {{ $sections := .Params.modular_sections }}
+    {{ range $sections }}
+      {{ $sectionType := .template }}
+      {{ if eq $sectionType "hero-with-form-right" }}
+        {{ partial "hero-with-form-right.html" . }}
+      {{ else if eq $sectionType "callout" }}
+        {{ partial "callout.html" . }}
+      {{ else if eq $sectionType "features" }}
+        {{ partial "features.html" . }}
+      {{ else if eq $sectionType "footer-small" }}
+        {{ partial "footer-small.html" . }}
+      {{ else if eq $sectionType "eyebrow" }}
+        {{ partial "eyebrow.html" . }}
+      {{ end }}
+
+    {{ end }}
+{{ end }}
