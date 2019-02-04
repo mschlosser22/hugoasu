@@ -7,7 +7,12 @@
     <title>{{ block "title" . }}{{ .Site.Title }} {{ with .Params.Title }} | {{ . }}{{ end }}{{ end }}</title>
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
-
+    <script
+      src="https://code.jquery.com/jquery-1.12.4.min.js"
+      integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+      crossorigin="anonymous">
+    </script>
+    <!-- PROCESS THESE JS FILES PROPERLY - THIS IS A QUICK AND DIRTY MOCKUP -->
     <script src="/dist/js/polsoneVariables.js"></script>
     <script src="/dist/js/asu-programs-formatted.js"></script>
 
@@ -53,5 +58,6 @@
       {{ block "main" . }}{{ end }}
     </main>
     {{ block "scripts" . }}{{ partial "site-scripts.html" . }}{{ end }}
+    <script src="/dist/js/custom.js"></script>
   </body>
 </html>
