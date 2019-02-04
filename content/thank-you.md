@@ -6,6 +6,5 @@ modular_sections:
 - template: footer-small
   left_text: Some footer text.
 date: 2019-02-04 15:23:12 +0000
-draft: true
 
 ---
