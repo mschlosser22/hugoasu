@@ -13,15 +13,6 @@ sections:
 - type: document
   path: data/forms/polsone/forms.json
   label: Polsone Forms
-- type: document
-  path: data/programs/programsbyinterestareas.json
-  label: ASU Programs by Interest Area
-- type: document
-  path: data/programs/asu-programs.json
-  label: ASU Programs (Only Temporary, Use getJson in template instead probably)
-- type: document
-  path: data/programs/interestareas.json
-  label: ASU Interest Areas
 - type: directory
   path: content/lps
   label: Landing Pages
