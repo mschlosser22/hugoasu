@@ -1,7 +1,6 @@
 ---
 label: Eyebrow
 hide_body: false
-is_partial: true
 display_field: button_label
 fields:
 - type: text

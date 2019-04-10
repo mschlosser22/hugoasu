@@ -14,7 +14,7 @@ modular_sections:
   content: Learn about the more than 150 highly respected degree programs available
     100% online through ASU.
 - template: eyebrow
-  button_label: LEARN MORE
+  button_label: 'LEARN MORE '
   button_link: "#"
   extra_class: background-asu-secondary
 - template: footer-small

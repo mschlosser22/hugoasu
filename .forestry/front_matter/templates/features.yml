@@ -1,7 +1,6 @@
 ---
 label: Features
 hide_body: false
-is_partial: true
 fields:
 - type: file
   name: icon

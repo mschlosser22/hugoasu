@@ -1,7 +1,6 @@
 ---
 label: Modular LP
 hide_body: true
-is_partial: false
 fields:
 - type: blocks
   name: modular_sections
@@ -14,8 +13,8 @@ fields:
   - footer-small
   - eyebrow
 pages:
-- content/thank-you.md
-- content/test.md
 - content/lps/home.md
-- content/lps/mike-test-netlify.md
+- content/thank-you.md
 - content/lps/fulton-grad-lp.md
+- content/lps/mike-test-netlify.md
+- content/test.md
