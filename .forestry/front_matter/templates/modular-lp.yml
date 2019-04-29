@@ -13,8 +13,8 @@ fields:
   - footer-small
   - eyebrow
 pages:
+- content/lps/fulton-grad-lp.md
 - content/lps/home.md
 - content/thank-you.md
-- content/lps/fulton-grad-lp.md
 - content/lps/mike-test-netlify.md
 - content/test.md

@@ -6,7 +6,7 @@ modular_sections:
   show_form_placeholder: true
   hero_image: "/uploads/ASUBRAND_271644106_FINAL-2.jpg"
   logo: "/uploads/asu-control-lp-logo-2017.png"
-  heading: Begin Your Journey
+  heading: Engineering and Technology For a Brighter Future
 - template: callout
   content: 'Engineering Professionals: Begin Your Grad School Journey Today Are you
     ready to develop advanced skills in technology and project leadership with the
